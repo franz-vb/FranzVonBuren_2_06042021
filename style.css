@@ -81,20 +81,45 @@ p{
     min-width: 100px;
     border: none;
 }
- 
-.filter{
-     width: 850px;
+
+/* filtre */
+
+
+.total_filter{
+     width: 1000px;
      justify-content: space-between;
      display: flex;
      align-items: center;
      font-weight: bolder;
  }
- .icon_filter{
-     width: 700px;
+
+ .title_filter{
+     
+ }
+ .filter{
+     width: 900px;
      display: flex;
      justify-content: space-between;
  }
 
- .economique{
-     border: black solid 3px;
+ .icon_description_filter{
+    font-weight: bold;
+    display: inline-block;
+    border-top: solid #e0e0e0 2px;
+    border-right: solid #e0e0e0 2px;
+    border-bottom: solid #e0e0e0 2px;
+    border-left: none;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 16px;
+    padding-left: 0;
  }
+
+ .icon_filter{
+     background-color: #deebff;
+     padding: 19px;
+     margin-right: 15px;
+     color: #0065fc;
+     border-radius: 50%;
+ }
+
