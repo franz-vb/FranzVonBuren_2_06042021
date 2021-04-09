@@ -82,9 +82,19 @@ p{
     border: none;
 }
  
-.filtres{
+.filter{
      width: 850px;
      justify-content: space-between;
      display: flex;
      align-items: center;
+     font-weight: bolder;
+ }
+ .icon_filter{
+     width: 700px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .economique{
+     border: black solid 3px;
  }
