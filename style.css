@@ -93,9 +93,6 @@ p{
      font-weight: bolder;
  }
 
- .title_filter{
-     
- }
  .filter{
      width: 900px;
      display: flex;
@@ -117,9 +114,27 @@ p{
 
  .icon_filter{
      background-color: #deebff;
-     padding: 19px;
+     padding: 18px;
      margin-right: 15px;
      color: #0065fc;
      border-radius: 50%;
  }
 
+ /* petite phrase */
+
+ .petite_phrase{
+     width: 450px;
+     height: 30px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     align-items: baseline;
+ }
+
+ .info{
+    color: #0065fc;
+    font-size: 0.8em;
+    border: solid #e0e0e0 2px;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+ }
