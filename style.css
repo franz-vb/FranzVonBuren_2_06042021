@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family:'Raleway', sans-serif;
     display: flex;
@@ -10,15 +15,16 @@ a{
 
 /* header */
 
-header{
+nav{
     display: flex;
     justify-content: space-between;
 }
 
-nav ul{
+ul{
     display: flex;
 }
-nav li{
+
+li{
      list-style: none;
      padding: 30px;
 }
@@ -27,7 +33,7 @@ a:hover{
     color: #0065fc;
 }
 
- nav ul li:hover{
+ li:hover{
      border-top: solid 2.5px #0065FC;
      font-weight: bolder;
 }
@@ -46,7 +52,15 @@ p{
     margin-bottom: 25px;
 }
 
- /* main */
+/* main */
+
+/* section 01 */
+
+.section_high{
+
+}
+
+/* title and research */
 
  .search{
     display: flex;
@@ -83,10 +97,10 @@ p{
     border: none;
 }
 
-/* filtre */
+/* filters */
 
 
-.total_filter{
+.filter_total{
      width: 1000px;
      justify-content: space-between;
      display: flex;
@@ -94,13 +108,17 @@ p{
      font-weight: bolder;
  }
 
- .filter{
+ .filter_title{
+
+ }
+
+ .filters_four{
      width: 900px;
      display: flex;
      justify-content: space-between;
  }
 
- .icon_description_filter{
+ .filter_one{
     font-weight: bold;
     display: inline-block;
     border-top: solid #f2f2f2 3px;
@@ -113,7 +131,7 @@ p{
     padding-left: 0;
  }
 
- .icon_filter{
+ .filter_icon{
      background-color: #deebff;
      padding: 18px;
      margin-right: 15px;
@@ -121,9 +139,13 @@ p{
      border-radius: 50%;
  }
 
- /* petite phrase */
+ .filter_description{
 
- .petite_phrase{
+ }
+
+ /* icon and sentence */
+
+ .icon_sentence{
      width: 450px;
      height: 30px;
      display: flex;
@@ -140,9 +162,9 @@ p{
     padding: 5px 10px 5px 10px;
  }
 
- /* hébergements */
+ /* accommodation */
 
- .total_heb{
+ .accommodation_total{
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
@@ -150,12 +172,12 @@ p{
     width: 70%;   
  }
 
- .titre_heb{
+ .accommodation_title{
     margin: 15px;
     font-weight: bold;
  }
 
- .six_heb{
+ .accommodation_six{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -166,7 +188,7 @@ p{
     padding: 10px;
  }
 
- .heb{
+ .accommodation_one{
     background-color: white;
     border-radius: 15px;
     margin: 5px;
@@ -179,7 +201,7 @@ p{
     flex-wrap: wrap;
  }
 
- .img_heb{
+ .accommodation_img{
     width: 190px;
     height: 100px;
     object-fit: cover;

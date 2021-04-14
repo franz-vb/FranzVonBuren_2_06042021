@@ -4,7 +4,6 @@
         <title>projet_02</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/833592a17c.js" crossorigin="anonymous"></script>
     </head>
@@ -13,8 +12,8 @@
 
             <!-- header -->
             <header>
-                <img src="./images/logo/Reservia.svg" alt="logo_header">
-                <nav>
+               <nav>
+                    <img src="./images/logo/Reservia.svg" alt="logo reservia"/>
                     <ul>
                         <li><a href="#hebergements">Hébergements</a></li>
                         <li><a href="#activites">Activités</a> </li>
@@ -26,66 +25,68 @@
             <!-- main -->
             <main>
 
-                <!-- titre et recherche -->
-                <section>
+                <!-- section 01-->
+                <section class="section_high">
+
+                    <!-- title and research -->
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
-                    <form method="POST" action="traitement.php" class="search">
+                    <form method="POST" class="search">
                         <span class="mapmarker"><i class="fas fa-map-marker-alt"></i></span> 
                         <input class="placeholder" type="search" placeholder="Marseille, France" name="Rechercher"/>
                         <input class="research" type="submit" value="Rechercher">
                     </form>
+                
+
+                    <!-- filters -->
+                    <div class="filter_total">    
+                        <h2 class="filter_title">Filtres</h2>
+                            <div class="filters_four">
+                                
+                                <a href="#">
+                                    <span class="filter_one">
+                                        <span class="filter_icon"><i class="fas fa-money-bill-wave"></i></span>
+                                        <span class="filter_description"> Économique</span>
+                                    </span>
+                                </a>
+                                
+                                <a href="#">
+                                    <span class="filter_one">
+                                        <span class="filter_icon"><i class="fas fa-child"></i></span>
+                                        <span class="filter_description">Familial</span>
+                                    </span>
+                                </a>
+                                
+                                <a href="#">
+                                    <span class="filter_one">
+                                        <span class="filter_icon"><i class="fas fa-heart"></i></span>
+                                        <span class="filter_description">Romantique</span>
+                                    </span>
+                                </a>
+                                
+                                <a href="#">
+                                    <span class="filter_one">
+                                        <span class="filter_icon"><i class="fas fa-dog"></i></span>
+                                        <span class="filter_description">Animaux autorisés</span>
+                                    </span>
+                                </a>
+                            </div>
+                    </div>
+
+                    <!-- icon and sentence -->
+                    <div class="icon_sentence">               
+                        <span class="info"><i class="fas fa-info"></i></span> 
+                        <p> Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div> 
                 </section>
 
-                <!-- filtres -->
-                <section class="total_filter">    
-                    <h2 class="title_fitres">Filtres</h2>
-                        <div class="filter">
-                            
-                            <a href="#">
-                                <span class="icon_description_filter">
-                                    <span class="icon_filter"><i class="fas fa-money-bill-wave"></i></span>
-                                    <span class="description_filter"> Économique</span>
-                                </span>
-                            </a>
-                            
-                            <a href="#">
-                                <span class="icon_description_filter">
-                                    <span class="icon_filter"><i class="fas fa-child"></i></span>
-                                    <span class="description_filter">Familial</span>
-                                </span>
-                            </a>
-                            
-                            <a href="#">
-                                <span class="icon_description_filter">
-                                    <span class="icon_filter"><i class="fas fa-heart"></i></span>
-                                    <span class="description_filter">Romantique</span>
-                                </span>
-                            </a>
-                            
-                            <a href="#">
-                                <span class="icon_description_filter">
-                                    <span class="icon_filter"><i class="fas fa-dog"></i></span>
-                                    <span class="description_filter">Animaux autorisés</span>
-                                </span>
-                            </a>
-                        
-                        </div>
-                </section>
-
-                <!-- petite phrase -->
-                <div class="petite_phrase">               
-                    <span class="info"><i class="fas fa-info"></i></span> 
-                    <p> Plus de 500 logements sont disponibles dans cette ville</p>
-                </div> 
-
-                <!-- hébergements -->
-
-                <section class="total_heb">
-                    <h2 class="titre_heb">Hébergements à Marseille</h2>
-                        <div class="six_heb">
-                            <div class="heb">
-                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière" class="img_heb" >
+                <!-- accommodation -->
+                <section class="accommodation_total">
+                    <h2 class="accommodation_title">Hébergements à Marseille</h2>
+                        <div class="accommodation_six">
+                            <div class="accommodation_one">
+                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+                                alt="Auberge La Cannebière" class="accommodation_img" >
                                 <h4>Auberge La Cannebière</h4>
                                 <p>Nuit à partir de 25€</p>
                                 <div class="etoile">
@@ -96,8 +97,9 @@
                                     <span class="etoile_grise"><i class="fas fa-star"></i></span>
                                 </div>
                             </div>
-                            <div class="heb">
-                                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" class="img_heb" >
+                            <div class="accommodation_one">
+                                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
+                                alt="Hôtel du port" class="accommodation_img" >
                                 <h4>Hôtel du port</h4>
                                 <p>Nuit à partir de 52€</p>
                                 <div class="etoiles">
@@ -108,8 +110,9 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                            <div class="heb">
-                                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" class="img_heb" >
+                            <div class="accommodation_one">
+                                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+                                alt="Hôtel Les mouettes" class="accommodation_img" >
                                 <h4>Hôtel Les mouettes</h4>
                                 <p>Nuit à partir de 76€</p>
                                 <div class="etoiles">
@@ -120,8 +123,9 @@
                                     <span class="etoile_grise"><i class="fas fa-star"></i></span>
                                 </div>
                             </div>
-                            <div class="heb">
-                                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" class="img_heb" >
+                            <div class="accommodation_one">
+                                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" 
+                                alt="Hôtel de la mer" class="accommodation_img" >
                                 <h4>Hôtel de la mer</h4>
                                 <p>Nuit à partir de 46€</p>
                                 <div class="etoiles">
@@ -132,8 +136,9 @@
                                     <span class="etoile_grise"><i class="fas fa-star"></i></span>
                                 </div>
                             </div>
-                            <div class="heb">
-                                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="img_heb" >
+                            <div class="accommodation_one">
+                                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" 
+                                alt="Auberge Le Panier" class="accommodation_img" >
                                 <h4>Auberge Le Panier</h4>
                                 <p>Nuit à partir de 23€</p>
                                 <div class="etoiles">
@@ -144,8 +149,9 @@
                                     <span class="etoile_grise"><i class="fas fa-star"></i></span>
                                 </div>
                             </div>
-                            <div class="heb">
-                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" class="img_heb" >
+                            <div class="accommodation_one">
+                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
+                                alt="Hôtel chez Amina" class="accommodation_img" >
                                 <h4>Hôtel chez Amina</h4>
                                 <p>Nuit à partir de 96€</p>
                                 <div class="etoiles">
