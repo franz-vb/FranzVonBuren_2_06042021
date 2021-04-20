@@ -351,27 +351,32 @@ aside h3{
 
  .activity_six{
     display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-between;
+    
     width: 100%;
     background-color: aqua;
  }
 
- 
+ .activity_column{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: brown;
+    
+    
+ }
  .activity_vp{
     display: flex;
     border-radius: 19px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    
     padding: 5px;
-    width: 23%;
+    width: 97%;
+    height: 100%;
     background-color: beige;
  }
  .activity_img_vp{
     width: 100%;
-    min-width: none;
-    height: 120px;
+    
+    height: 85%;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -379,16 +384,17 @@ aside h3{
  .activity_fp{
     display: flex;
     border-radius: 19px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+
+
     padding: 5px;
-    width: 23%;
+    width: 97%;
+    height: 60%;
     background-color: beige;
  }
  .activity_img_fp{
     width: 100%;
     min-width: none;
-    height: 120px;
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;  
@@ -396,10 +402,10 @@ aside h3{
  .activity_if{
     display: flex;
     border-radius: 19px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    
     padding: 5px;
-    width: 23%;
+    width: 97%;
+    height: 40%;
     background-color: beige;
  }
  .activity_img_if{
@@ -413,16 +419,16 @@ aside h3{
  .activity_pnc{
     display: flex;
     border-radius: 19px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    
     padding: 5px;
-    width: 23%;
+    width: 97%;
+    height: 100%;
     background-color: beige;
  }
  .activity_img_pnc{
     width: 100%;
-    min-width: none;
-    height: 120px;
+    
+    height: 85%;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
@@ -430,10 +436,10 @@ aside h3{
  .activity_ndg{
     display: flex;
     border-radius: 19px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+
     padding: 5px;
-    width: 23%;
+    width: 97%;
+   height: 40%;
     background-color: beige;
  }
  .activity_img_ndg{
@@ -447,10 +453,10 @@ aside h3{
  .activity_pl{
     display: flex;
     border-radius: 19px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  
     padding: 5px;
-    width: 23%;
+    width: 97%;
+    height: 60%;
     background-color: beige;
  }
  .activity_img_pl{
