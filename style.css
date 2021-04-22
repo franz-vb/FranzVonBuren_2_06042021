@@ -3,10 +3,13 @@
     padding: 0;
 }
 
+header, main{
+   margin: 15px 40px 0 40px;
+}
+
 body{
     font-family:'Raleway', sans-serif;
-    display: flex;
-}
+} 
 
 a{
     text-decoration: none;
@@ -20,11 +23,11 @@ nav{
     justify-content: space-between;
 }
 
-ul{
+nav ul{
     display: flex;
 }
 
-li{
+nav li{
      list-style: none;
      padding: 30px;
 }
@@ -33,7 +36,13 @@ a:hover{
     color: #0065fc;
 }
 
- li:hover{
+.filter_one:hover{
+   background-color: #0065FC;
+   opacity: 0.6;
+   color: white;
+}
+
+ nav li:hover{
      border-top: solid 2.5px #0065FC;
      font-weight: bolder;
 }
@@ -462,4 +471,23 @@ aside h3{
     border-top-right-radius: 15px;  
  }
 
- 
+/* footer */
+
+.footer_total{
+  display: flex; 
+  justify-content: space-between;
+  padding: 35px;
+  padding-right: 250px;
+  background-color: #f2f2f2;
+  height: 140px;
+}
+
+footer h3{
+   margin-left: 0;
+   margin-bottom: 15px;
+}
+
+footer li{
+   list-style: none;
+   margin-bottom: 10px;
+}
