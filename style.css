@@ -8,7 +8,7 @@ header, main{
 }
 
 body{
-    font-family:'Raleway', sans-serif;
+   font-family:'Raleway', sans-serif;
 } 
 
 a{
@@ -21,6 +21,7 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 20px;
 }
 
 nav ul{
@@ -66,7 +67,7 @@ p{
 /* section high */
 
 .high{
-
+margin: 20px;
 }
 
 /* title and research */
@@ -110,22 +111,21 @@ p{
 
 
 .filter_total{
-     width: 1000px;
-     justify-content: space-between;
+     width: 100%;
      display: flex;
      align-items: center;
      font-weight: bolder;
  }
 
  .filter_title{
-
+   padding-bottom: 10px;
+   font-size: larger;
+   margin-right: 40px;
  }
 
  .filters_four{
-     width: 900px;
-     display: flex;
-     justify-content: space-between;
- }
+     width: 100%;
+}
 
  .filter_one{
     font-weight: bold;
@@ -136,6 +136,7 @@ p{
     border-left: none;
     border-radius: 50px;
     margin-bottom: 10px;
+    margin-right: 40px;
     padding: 16px;
     padding-left: 0;
  }
@@ -176,6 +177,7 @@ p{
  .accommodation_popular{
      display: flex;
      justify-content: space-between;
+     margin: 20px;
  }
 
  /* section accommodation*/
@@ -358,6 +360,7 @@ aside h3{
  .activity_title{
     font-weight: bold;
     margin-top: 15px;
+    margin-left: 20px;
  }
 
  .activity_six{
@@ -476,8 +479,7 @@ aside h3{
 .footer_total{
   display: flex; 
   justify-content: space-between;
-  padding: 35px;
-  padding-right: 250px;
+  padding: 35px 450px 35px 65px;
   background-color: #f2f2f2;
   height: 140px;
 }
@@ -490,4 +492,23 @@ footer h3{
 footer li{
    list-style: none;
    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px)
+{
+   .accommodation_popular{
+      display: flex;
+      flex-direction: column;   
+  }
+
+  .accommodation_six{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-content: center;
+   flex-wrap: wrap;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
 }
