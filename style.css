@@ -14,6 +14,7 @@ body{
 a{
     text-decoration: none;
     color: black;
+    width: 100%;
 }
 
 /* header */
@@ -362,13 +363,15 @@ aside h3{
 
  .activity_six{
     display: flex;
-    width: 100%;
+    width: 100%; 
  }
 
  .activity_column{
     display: flex;
+    flex: 25%;
     flex-direction: column; 
     margin: 20px;  
+    
  }
  .activity_vp{
     display: flex;
