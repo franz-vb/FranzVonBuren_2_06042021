@@ -7,6 +7,8 @@ header, main{
   margin: 15px 40px 0 40px;
 }
 
+
+
 body{
   font-family:'Raleway', sans-serif;
 } 
@@ -18,6 +20,14 @@ a{
 }
 
 /* header */
+
+.nav_mobile{
+   display: none;
+}
+
+.nav_desktop{
+   display: block;
+}
 
 nav{
    display: flex;
@@ -38,11 +48,6 @@ a:hover{
    color: #0065fc;
 }
 
-.filter_one:hover{
-  background-color: #0065FC;
-  opacity: 0.6;
-  color: white;
-}
 
 nav li:hover{
     border-top: solid 2.5px #0065FC;
@@ -142,6 +147,13 @@ margin: 20px;
    padding: 16px;
    padding-left: 0;
 }
+
+.filter_one:hover{
+   background-color: #0065FC;
+   opacity: 0.6;
+   color: white;
+ }
+ 
 
 .filter_icon{
     background-color: #deebff;
@@ -494,6 +506,7 @@ footer li{
   margin-bottom: 10px;
 }
 
+
 /* responsive ipad pro 768_1024 */
 
 @media screen and (max-width: 1024px)
@@ -601,9 +614,3 @@ footer li{
 
 }
 
-/* responsive smartphone -767 */
-
-@media screen and (max-width: 767px)
-{
-
-}
