@@ -3,9 +3,6 @@
    padding: 0;
 }
 
-html{
-   width: 100%;
-}
 
 header, main{
   margin: 15px 40px 0 40px;
@@ -20,27 +17,25 @@ body{
 a{
    text-decoration: none;
    color: black;
-   width: 100%;
 }
 
 /* header */
 
-.nav_mobile{
-   display: none;
-}
-
-.nav_desktop{
-   display: block;
-}
-
 nav{
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
+   align-items: center;
    margin: 20px;
 }
 
 nav ul{
    display: flex;
+   order: 1;
+}
+
+nav a{
+   order: 2;
 }
 
 nav li{
@@ -116,6 +111,10 @@ margin: 20px;
    border-bottom-right-radius: 14px;
    min-width: 100px;
    border: none;
+}
+
+input:after{
+   content: "rechercher";
 }
 
 /* filters */
@@ -495,7 +494,7 @@ aside h3{
 .footer_total{
  display: flex; 
  justify-content: space-between;
- padding: 35px 450px 35px 65px;
+ 
  background-color: #f2f2f2;
  height: 140px;
 }

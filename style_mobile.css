@@ -3,14 +3,28 @@
 
 @media screen and (max-width: 767px)
 {
-    .nav_desktop{
-        display: none;
-    }
-
-    .nav_mobile{
-        display: block;
+    header, main{
+        margin: 0;
+      }
+      
+    
+    .nav_mobile_under{
+        display: flex;
     }
     
+    .nav_mobile_under span{
+        flex-grow: 1;
+    }
+
+    nav ul{
+        order: 2;
+     }
+     
+     nav a{
+        order: 1;
+     }
+
+
    .icon_sentence{
       width: 100%;
    }
@@ -19,4 +33,22 @@
        flex-direction: column;
        align-items: unset;
    }
+
+   .mapmarker{
+  
+    min-width: unset;
+    flex: 20%;
+    
+ }
+ 
+ .placeholder{
+    flex: 60%;
+ }
+ 
+ .research{
+    
+    min-width: unset;
+    flex: 20%;
+   
+ }
 }
