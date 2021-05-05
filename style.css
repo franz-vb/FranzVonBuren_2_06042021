@@ -24,10 +24,16 @@ a{
 nav{
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: flex-end;
    align-items: center;
-   margin: 20px;
 }
+
+.nav_desktop img {    
+   position: absolute;
+   top: 32px;
+   left: 30px;
+}
+
 
 nav ul{
    display: flex;
@@ -113,6 +119,10 @@ margin: 20px;
    border: none;
 }
 
+.icon_search{
+   display: none;
+}
+
 input:after{
    content: "rechercher";
 }
@@ -169,6 +179,12 @@ input:after{
 .filter_description{
 
 }
+
+.filter_icon i {
+   width: 16px;
+   text-align: center; 
+}
+
 
 /* icon and sentence */
 
