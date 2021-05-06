@@ -1,28 +1,18 @@
 
-/* responsive smartphone -767 */
+/* responsive smartphone */
 
 @media screen and  (max-width: 767px)
 {
+
     header, main{
         margin: 0;
-      }
-      
-    .text_search{
-        display: none;
-    }
+      }  
     
-    .icon_search{
-        display: inline;
-    }
-    
-    .nav_mobile_under{
-        display: flex;
-    }
-    
-    .nav_mobile_under span{
-        flex-grow: 1;
-    }
+    /* header */
 
+    .header_nav img {  
+      left: 35px;
+   }
     nav{
         display: flex;
         flex-wrap: wrap;
@@ -30,13 +20,10 @@
         justify-content: space-between;
         align-items: center;
      }
-     
-
     nav ul{
         order: 2;
         width: 100%;
      }
-
      nav li{
         list-style: none;
         padding-bottom: 5px;
@@ -44,73 +31,84 @@
         width: 50%;
         border-bottom: solid 2.5px #deebff;
     }
-
     nav li:hover{
         border-bottom: solid 2.5px #0065FC;
         font-weight: bolder;
         border-top: none;
-
     }
-     
      nav a{
         order: 1;
      }
-
      .inscription{
         color: #0065fc;
         font-weight: bolder;
-        margin: 50px 50px 0 50px;
+        margin: 50px 60px 0 50px;
     }
 
-   .icon_sentence{
-      width: 100%;
-   }
+    /* section hight */
+
+    /* title and research */
+
+    .mapmarker{
+      min-width: unset;
+      flex: 20%;  
+     }
+     .placeholder{
+      flex: 60%;
+     }
+     .research{
+      min-width: unset;
+      flex: 20%;
+     }
+    .text_search{
+      display: none;
+    }
+    .icon_search{
+      display: inline;
+    }
+
+    /* filters */
 
    .filter_total{
        flex-direction: column;
        align-items: unset;
    }
 
-   .mapmarker{
-  
-    min-width: unset;
-    flex: 20%;
-    
- }
- 
- .placeholder{
-    flex: 60%;
- }
- 
- .research{
-    
-    min-width: unset;
-    flex: 20%;
-   
- }
+   /* icon and sentence */
+
+.icon_sentence{
+   width: 100%;
+}
+
+/* accommodation and popular */
 
  .accommodation_popular{
     margin: 0;
 }
 
+/* section accommodation */
+
+.accommodation_total{
+   background: none; 
+}
+
+/* aside  */
+
 .popular_total{
-    border-radius: 0;
-     
- }
- .accommodation_total{
-   
-    background: none; 
+    border-radius: 0;   
  }
 
- .popular_img{
-    width: 50%;
- }
+/* most popular */
+
  .popular_tree{
     margin-left: 15px;
     margin-right: 15px;
  }
-
  .popular_one{
     width: unset;      
  }
+ .popular_img{
+   width: 50%;
+}
+
 }
