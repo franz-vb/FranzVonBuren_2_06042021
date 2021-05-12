@@ -1,8 +1,12 @@
 /* responsive tablette */
-@media screen and (orientation:landscape) and (max-width: 1024px) {
+@media screen and (orientation:landscape) and ( min-width: 768px) and (max-width:1024px) {
    p{
       color: red;
    }
+   .accommodation_popular{
+      flex-direction: unset;
+   }
+
 }
 
 @media screen and (max-width: 1024px) {
