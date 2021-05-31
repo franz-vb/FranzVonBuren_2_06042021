@@ -18,7 +18,9 @@ a:hover {
 }
 
 /* header */
-
+.header_nav{
+  margin-top: 3px;
+}
 .header_nav img {
   position: absolute;
   top: 32px;
@@ -149,6 +151,7 @@ p {
   width: 16px;
   text-align: center;
 }
+
 
 /* icon and sentence */
 
