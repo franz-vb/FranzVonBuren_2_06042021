@@ -113,3 +113,9 @@
     width: 50%;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .inscription {
+    margin-right: 15px;
+  }
+}

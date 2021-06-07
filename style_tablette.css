@@ -1,13 +1,4 @@
-/* responsive tablette */
-@media screen and (orientation:landscape) and ( min-width: 768px) and (max-width:1024px) {
-   p{
-      color: red;
-   }
-   .accommodation_popular{
-      flex-direction: unset;
-   }
 
-}
 
 @media screen and (max-width: 1024px) {
   /* accommodation and popular */
@@ -97,4 +88,22 @@
     flex-direction: column;
     height: auto;
   }
+}
+
+/* responsive tablette */
+@media screen and (orientation:landscape) and ( min-width: 767px) and (max-width:1024px) {
+
+  .accommodation_six, .popular_tree{
+     flex-direction: row;
+     flex-wrap: wrap;
+  }
+
+  .popular_total{
+    justify-content: unset;
+  }
+
+  .accommodation_one{
+    width: 30%;
+  }
+
 }
