@@ -590,7 +590,7 @@ footer li {
   }
   nav ul {
     order: 2;
-    width: 100%;
+    flex: 100%;
   }
   nav li {
     list-style: none;
