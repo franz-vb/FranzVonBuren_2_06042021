@@ -13,6 +13,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 a:hover {
   color: #0065fc;
 }
@@ -178,6 +179,19 @@ p {
   justify-content: space-between;
   margin: 20px;
 }
+
+/*all img popular*/
+.popular_tree a {
+  width:100%;
+  }
+/*all img accomodation*/
+  .accommodation_six a {
+  width:100%;
+  }
+  /*all img activity*/
+  .activity_six a {
+  width:100%;
+  }
 
 /* section accommodation*/
 
